@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=tigerwm
+Comment=tigerwm. simple, fast, and lightweight tiling window manager
+Exec=/usr/bin/tigerwm
+Type=Application
