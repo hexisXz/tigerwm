@@ -41,7 +41,7 @@ Installation
 Need Xlib, then:
 
 ``` sh
-curl -L -O "https://raw.githubusercontent.com/hexisXz/tigerwm/master/install/install.sh" && sh install.sh 
+curl -L -O "https://raw.githubusercontent.com/hexisXz/tigerwm/main/install/install.sh" && sh install.sh 
 ```
 
 Bugs
