@@ -23,8 +23,8 @@
 #define UNFOCUS         "rgb:88/88/88"
 
 // Borders and gap
-#define BORDER_SIZE     3
-#define GAP_SIZE        6
+#define BORDER_SIZE     2
+#define GAP_SIZE        8
 
 const char* dmenucmd[] = {"dmenu_run",NULL};
 const char* term[]     = {"st",NULL};

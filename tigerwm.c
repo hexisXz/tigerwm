@@ -236,7 +236,7 @@ void destroynotify(XEvent *e) {
 }
 
 void die(const char* e) {
-    fprintf(stdout,"catwm: %s\n",e);
+    fprintf(stdout,"tigerwm: %s\n",e);
     exit(1);
 }
 
@@ -410,7 +410,7 @@ void quit() {
     if(bool_quit == 1) {
         XUngrabKey(dis, AnyKey, AnyModifier, root);
         XDestroySubwindows(dis, root);
-        fprintf(stdout, "catwm: Thanks for using!\n");
+        fprintf(stdout, "tigerwm: Thanks for using!\n");
         XCloseDisplay(dis);
         die("forced shutdown");
     }
@@ -429,7 +429,7 @@ void quit() {
     }
 
     XUngrabKey(dis,AnyKey,AnyModifier,root);
-    fprintf(stdout,"catwm: Thanks for using!\n");
+    fprintf(stdout,"tigerwm: Thanks for using!\n");
 }
 
 void remove_window(Window w) {
